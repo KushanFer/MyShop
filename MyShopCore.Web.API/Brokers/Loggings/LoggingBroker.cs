@@ -23,9 +23,9 @@ namespace MyShopCore.Web.API.Brokers.Loggings
 
         }
 
-        public void LogInformation(Exception exception)
+        public void LogInformation(string message)
         {
-            this._logger.LogInformation(exception, exception.Message);
+            this._logger.LogInformation(message);
         }
 
         public void LogTrace(string message)

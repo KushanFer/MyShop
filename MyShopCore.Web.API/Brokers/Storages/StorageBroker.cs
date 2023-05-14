@@ -13,7 +13,7 @@ namespace MyShopCore.Web.API.Brokers.Storages
             this.configuration = configuration;
         }
 
-      
+       
 
         /// <summary>
         /// Create Connection String for the DB

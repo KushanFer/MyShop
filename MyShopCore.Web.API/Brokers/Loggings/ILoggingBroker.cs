@@ -2,7 +2,7 @@
 {
     public interface ILoggingBroker
     {
-        void LogInformation(string message);
+        void LogInformation(Exception message);
         void LogDebug(string message);
 
         void LogTrace(string message);

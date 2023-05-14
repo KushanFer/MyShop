@@ -7,5 +7,8 @@ namespace MyShopCore.Web.API.Controllers
     [ApiController]
     public class HomeController : ControllerBase
     {
+        [HttpGet]
+        public string Get()
+        { return "You are have reached our Home"; }
     }
 }
